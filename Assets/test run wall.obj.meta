@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 0d0be1264b8f2ee4c80ee9c1c62ca875
-=======
-guid: ff30b3e22554ddd4f980bebafb7f90b5
->>>>>>> ui
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -237,6 +233,7 @@ ModelImporter:
     4300070: group14_VS_wall_links:Tile_base1_VS_wall_links:Tile_base2_VS_wall_links:Tile_base3_VS_wall_links:Tile_base4_VS_wall_links:Tile_base5_VS_wall_links:Tile_base6_VS_wall_links:Tile_base7_VS_wall_links:Tile_base8_VS_wall_links:Tile_base9_VS_wall_links:Tile_base10_VS_wall_links:Tile_base11_VS_wall_links:Tile_base12
     4300072: Pipe_big7_group13
     4300074: VS_wall_links:pCube1_group14_VS_wall_links:pCube3_VS_wall_links:pCube5_VS_wall_links:pCube7_VS_wall_links:pCube10_VS_wall_links:pCube11_VS_wall_links:pCube15_VS_wall_links:pCube17_VS_wall_links:pCube19_VS_wall_links:pCube23
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -290,7 +287,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -310,15 +307,11 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-<<<<<<< HEAD
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
-=======
->>>>>>> ui
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
