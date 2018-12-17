@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6dabe968afb7b3044b2fb0f76665eac1
+=======
+guid: 5b671eb79c7c81e4bb6310bf03704135
+>>>>>>> ui
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -84,7 +88,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+<<<<<<< HEAD
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+>>>>>>> ui
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
