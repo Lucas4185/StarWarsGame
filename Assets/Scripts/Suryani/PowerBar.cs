@@ -13,19 +13,18 @@ public class PowerBar : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-       
+       player = GameManagerScript.Player;
     }
 	
 	// Update is called once per frame
 	void Update () {
-        player = scripts.GetComponent<Player>();
         Yellow.type = Image.Type.Filled;
         Yellow.fillMethod = Image.FillMethod.Horizontal;
-        Yellow.fillAmount = player.speed / 100.0f;
+        Yellow.fillAmount = player.Speed / 100.0f;
         Red.type = Image.Type.Filled;
         Red.fillOrigin = (int)Image.OriginHorizontal.Right;
         Red.fillMethod = Image.FillMethod.Horizontal;
-        Red.fillAmount = player.firepower / 100.0f;
+        Red.fillAmount = player.Shield / 100.0f;
 
     }
 }

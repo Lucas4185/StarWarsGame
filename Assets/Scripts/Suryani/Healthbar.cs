@@ -13,17 +13,15 @@ public class Healthbar : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-       
+       player = GameManagerScript.Player;
     }
 	
 	// Update is called once per frame
 	void Update () {
-
-        player = scripts.GetComponent<Player>();
         YellowBar.type = Image.Type.Filled;
         YellowBar.fillMethod = Image.FillMethod.Horizontal;
-        YellowBar.fillAmount = player.health / 100.0f;
-        healthText.GetComponent<Text>().text = player.health.ToString();
-        healthText.GetComponent<Text>().text = player.health.ToString();
+        YellowBar.fillAmount = player.Health / 100.0f;
+        healthText.GetComponent<Text>().text = player.Health.ToString();
+        healthText.GetComponent<Text>().text = player.Health.ToString();
     }
 }

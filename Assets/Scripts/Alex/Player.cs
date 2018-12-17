@@ -11,14 +11,20 @@ public class Player {
 	public float RobotRegenCooldown { get; private set; }
 	public float ShieldTime { get; private set;}
 	public float RocketDamage { get; private set; }
+	public float Speed {get; private set; }
 
 	public Player(float health, float shield) {
 		Health = health;
 		Shield = shield;
+		Speed = 1f;
 	}
 
 	public float TakeDamage(float amount) {	
 		Health -= amount;
 		return Health;
-	} 
+	}
+
+	public void HealPlayer(float amount) {
+		Health += amount;
+	}
 }

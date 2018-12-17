@@ -10,14 +10,14 @@ public class PickUp : MonoBehaviour {
 
     void Start()
     {
-       player = scriptHolder.GetComponent<Player>();
+       player = GameManagerScript.Player;
     }
 
     private void OnCollisionEnter(Collision other)
     {
         Debug.Log(other.gameObject.tag);
         if (other.gameObject.tag == "Player") {
-            player.health += 10;
+            player.HealPlayer(10);
             Destroy(gameObject);
         }
     }
