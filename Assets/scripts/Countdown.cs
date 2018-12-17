@@ -24,6 +24,7 @@ public class Countdown : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Code for 10 minutes
         minutes = Mathf.FloorToInt(totalSeconds / 60f);
         seconds = Mathf.FloorToInt(totalSeconds % 60f);
         clockText.GetComponent<Text>().text = minutes.ToString("00") + ":" + seconds.ToString("00");
