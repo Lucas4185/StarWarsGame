@@ -17,6 +17,8 @@ public class SpaceFlight : MonoBehaviour {
     public float distance, smooth, rotationTime;
     public Vector3 offset;
 
+    Vector3 a,b;
+
     void Start () { 
         pilot = GetComponent<Rigidbody>();
         force = GetComponent<ConstantForce>();
@@ -34,24 +36,15 @@ public class SpaceFlight : MonoBehaviour {
 
         Vector3 pointToMove = Vector3.Lerp(transform.position, pointPosition, Time.deltaTime * smooth);
 
-        // Vector3 a = (Camera.main.transform.position - transform.position);
-        // Vector3 b = (Camera.main.transform.position - pointPosition);
+        a = new Vector2(pointPosition.x - Camera.main.transform.position.x, pointPosition.z - Camera.main.transform.position.z).normalized;
+		b = new Vector2(transform.position.x - Camera.main.transform.transform.position.x, transform.position.z - Camera.main.transform.position.z).normalized;
+        
+        float inproduct = a.x * b.x + a.y * b.y;
 
-        // Debug.DrawLine(transform.position, a, Color.blue);
-        // Debug.DrawLine(transform.position, b, Color.blue);
+        float thetaRads = Mathf.Acos(inproduct);
+		float thetaDegs = (thetaRads * Mathf.Rad2Deg);
 
-        // float inproduct = a.x * b.x + a.y * b.y;
-
-        // float theta = Mathf.Acos(inproduct);
-        // SetRoll(theta);
-
-        #region distance
-        // Vector3 heading = transform.position - pointPosition;
-        // float dist = heading.magnitude;
-        // Vector3 direction = heading / dist;
-
-        //SetRoll((dist * direction.z) * 10);
-        #endregion
+        SetRoll(thetaDegs);
 
         pilot.MovePosition(pointToMove);
     }
@@ -61,7 +54,9 @@ public class SpaceFlight : MonoBehaviour {
     }
     
     void SetRoll (float rollForce) {
-        force.relativeTorque = Vector3.forward * rollForce * sensitivity;
+        if(!float.IsNaN(rollForce)) {
+            force.relativeTorque = Vector3.forward * rollForce * sensitivity;
+        }
         // transform.Rotate(transform.forward, rollForce * sensitivity);
     }
 
@@ -70,8 +65,13 @@ public class SpaceFlight : MonoBehaviour {
     }
 
     void OnDrawGizmos() {
+        Gizmos.color = Color.blue;
         Gizmos.DrawSphere(pointPosition, 0.1f);
         Gizmos.color = Color.green;
         Gizmos.DrawLine(transform.position, pointPosition);
+
+        Gizmos.DrawSphere(new Vector3(a.x, 0f, a.y), 0.1f);
+        Gizmos.color = Color.red;
+		Gizmos.DrawSphere(new Vector3(b.x, 0f, b.y), 0.1f);
     }
 }
