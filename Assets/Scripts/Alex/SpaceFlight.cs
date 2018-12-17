@@ -44,7 +44,7 @@ public class SpaceFlight : MonoBehaviour {
         float thetaRads = Mathf.Acos(inproduct);
 		float thetaDegs = (thetaRads * Mathf.Rad2Deg);
 
-        SetRoll(thetaDegs);
+        SetRoll(thetaDegs * -Input.GetAxisRaw("Mouse X"));
 
         pilot.MovePosition(pointToMove);
     }
