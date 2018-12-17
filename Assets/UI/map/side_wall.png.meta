@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 6dfecb03053e1164899f4dd3020aca16
 =======
 guid: 15b663793a8fb5b49acb7ce00214320d
 >>>>>>> ui
+=======
+guid: 6c632cb09af03314baa735a7386968c7
+>>>>>>> minimap
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}

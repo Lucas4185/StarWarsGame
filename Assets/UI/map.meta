@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: ba2c005b8d8d649458ed59bc2d103a55
 =======
 guid: 1e93c539d5dda9d4196ca69e3ba80f9c
 >>>>>>> ui
+=======
+guid: 430a8bd2b9362164faba6088ab3dfda4
+>>>>>>> minimap
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
