@@ -10,7 +10,6 @@ public class Lazer : MonoBehaviour {
 
         Vector3 position = gameObject.transform.position + ship.transform.forward * 5;
 
-
         if (!Physics.Raycast(position, ship.transform.forward, out hit)) return;
         
         GameObject proj = Instantiate(projectile, gameObject.transform.position, ship.transform.rotation);
