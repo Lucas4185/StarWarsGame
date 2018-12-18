@@ -7,17 +7,21 @@ public enum FillBar { BAR_1, BAR_2, BAR_3 }
 
 public class ProgressBar : MonoBehaviour {
 
-    private FillBar fillBar;
+    public FillBar fillBar;
     private Image image;
 
     public float addedAmount;
 
     private float maxAmount;
 
-    private bool canFill;
+    public bool canFill;
 
-    private GameObject progressPoint1;
-    private GameObject progressPoint2;
+    [SerializeField]
+    private Image progressPoint1;
+    [SerializeField]
+    private Image progressPoint2;
+
+    public bool filling;
 
     void Start()
     {
@@ -32,8 +36,15 @@ public class ProgressBar : MonoBehaviour {
 
     void FixedUpdate()
     {
+        if (filling && canFill)
+        {
+            FillBall();
+        }
+
         if (image.fillAmount < maxAmount)
         {
+            if (!filling) filling = true;
+
             if (image.fillAmount + addedAmount > maxAmount)
             {
                 UpdateDisplay(maxAmount);
@@ -55,9 +66,7 @@ public class ProgressBar : MonoBehaviour {
 
     public void FillNext()
     {
-        if (!canFill) return;
-
-        Debug.Log("Test");
+        if (filling) return;
 
         switch (fillBar)
         {
@@ -78,5 +87,27 @@ public class ProgressBar : MonoBehaviour {
                 canFill = false;
                 break;
         }
-    } 
+    }
+
+    private void FillBall()
+    {
+        Image imageToFade = null;
+
+        if (fillBar == FillBar.BAR_2) imageToFade = progressPoint1;
+        if (fillBar == FillBar.BAR_3) imageToFade = progressPoint2;
+
+        if (imageToFade == null) return;
+
+        Color imageColour = imageToFade.color;
+
+        if (imageColour.a < 1)
+        {
+            imageColour.a += 0.2f;
+
+            imageToFade.color = imageColour;
+        } else
+        {
+            filling = false;
+        }
+    }
 }
