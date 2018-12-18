@@ -1,18 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 0ccc4917d9e7b1f45a8b62ab72b80371
-=======
-guid: 62655a5ae4c8edb4c9a4f3ab1ef450e3
->>>>>>> minimap
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 2
   useLegacyImporter: 0
-<<<<<<< HEAD
   quality: 0.5
-=======
-  quality: 1
->>>>>>> minimap
   isColorLinear: 0
   frameRange: 0
   startFrame: -1
@@ -23,20 +15,7 @@ VideoClipImporter:
   flipVertical: 0
   flipHorizontal: 0
   importAudio: 1
-<<<<<<< HEAD
   targetSettings: {}
-=======
-  targetSettings:
-    0:
-      enableTranscoding: 0
-      codec: 0
-      resizeFormat: 0
-      aspectRatio: 0
-      customWidth: 312
-      customHeight: 90
-      bitrateMode: 2
-      spatialQuality: 2
->>>>>>> minimap
   userData: 
   assetBundleName: 
   assetBundleVariant: 

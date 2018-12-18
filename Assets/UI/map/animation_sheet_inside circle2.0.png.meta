@@ -1,14 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
 guid: 9ad78d9352444ae49b6629dea71b86bc
-=======
-guid: 9226dc2325e5d4044937a8f3e9d94740
->>>>>>> ui
-TextureImporter:
-  fileIDToRecycleName: {}
-=======
-guid: 46466c5ced0a54248a4619db80f782f0
 TextureImporter:
   fileIDToRecycleName:
     21300000: animation_sheet_inside circle2.0_0
@@ -18,16 +9,18 @@ TextureImporter:
     21300008: animation_sheet_inside circle2.0_4
     21300010: animation_sheet_inside circle2.0_5
     21300012: animation_sheet_inside circle2.0_6
->>>>>>> minimap
+    21300014: animation_sheet_inside circle2.0_7
+    21300016: animation_sheet_inside circle2.0_8
+    21300018: animation_sheet_inside circle2.0_9
+    21300020: animation_sheet_inside circle2.0_10
+    21300022: animation_sheet_inside circle2.0_11
+    21300024: animation_sheet_inside circle2.0_12
+    21300026: animation_sheet_inside circle2.0_13
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
     mipMapMode: 0
-<<<<<<< HEAD
-    enableMipMap: 1
-=======
     enableMipMap: 0
->>>>>>> minimap
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -55,15 +48,6 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-<<<<<<< HEAD
-    wrapU: -1
-    wrapV: -1
-    wrapW: -1
-  nPOTScale: 1
-  lightmap: 0
-  compressionQuality: 50
-  spriteMode: 0
-=======
     wrapU: 1
     wrapV: 1
     wrapW: -1
@@ -71,7 +55,6 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
->>>>>>> minimap
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -80,15 +63,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-<<<<<<< HEAD
-  alphaIsTransparency: 0
-  spriteTessellationDetail: -1
-  textureType: 0
-=======
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
->>>>>>> minimap
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -106,15 +83,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
-    outline: []
-    physicsShape: []
-    bones: []
-    spriteID: 
-=======
   - serializedVersion: 2
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -135,7 +103,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 546
-        width: 314
+        width: 312
         height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -144,7 +112,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 928dccb22f8db7e47b076de8f799a323
+      spriteID: 1659d8ce664b95a47be20075c869c033
       vertices: []
       indices: 
       edges: []
@@ -153,9 +121,9 @@ TextureImporter:
       name: animation_sheet_inside circle2.0_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 455
-        width: 314
+        x: 313
+        y: 546
+        width: 313
         height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -164,7 +132,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d47a664e783b6041873714b2c9f9952
+      spriteID: 8ab628af07208284ba2e89de92c1b270
       vertices: []
       indices: 
       edges: []
@@ -174,8 +142,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 364
-        width: 314
+        y: 455
+        width: 313
         height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -184,7 +152,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0d076632a04f044385deb25d66bcae5
+      spriteID: 8e75b748005a2ed47bc718d63f005cf4
       vertices: []
       indices: 
       edges: []
@@ -193,9 +161,9 @@ TextureImporter:
       name: animation_sheet_inside circle2.0_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 273
-        width: 314
+        x: 313
+        y: 455
+        width: 313
         height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,7 +172,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eac5576fe71a641449ff199cd2df0047
+      spriteID: 7687595a39b1c1b41837b5971d35a8f6
       vertices: []
       indices: 
       edges: []
@@ -214,8 +182,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 182
-        width: 314
+        y: 364
+        width: 312
         height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -224,7 +192,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2d8fa27bfd81674dbd10bc14c0c20fc
+      spriteID: dbbbdada05760d64c96604a8c20f0075
       vertices: []
       indices: 
       edges: []
@@ -233,9 +201,9 @@ TextureImporter:
       name: animation_sheet_inside circle2.0_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 91
-        width: 314
+        x: 314
+        y: 364
+        width: 312
         height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -244,7 +212,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c4154dfe7b3d794c9ed5b56b604930d
+      spriteID: c57c2df98a8e77b4e9ec70efb06890ca
       vertices: []
       indices: 
       edges: []
@@ -254,8 +222,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 314
+        y: 273
+        width: 311
         height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -264,7 +232,147 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87caa4a48c92ab149bf6a8897cd654cf
+      spriteID: ea2187f3fbe22d048bdb4dc6c9dd1c35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_sheet_inside circle2.0_7
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 273
+        width: 313
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632c7ae43d8c29548a02dc9eb0a2ea2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_sheet_inside circle2.0_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 312
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733fe00ccf50d974b87573c8d6521f5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_sheet_inside circle2.0_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 182
+        width: 313
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1088ff104f2aa874b9cda26050b5fcee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_sheet_inside circle2.0_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 311
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6de9a7249b968478bf01d93c505525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_sheet_inside circle2.0_11
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 91
+        width: 313
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6c782414439784cbfad94f630a1880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_sheet_inside circle2.0_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 311
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d4b6bce0debc5469d2753bb7141f79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_sheet_inside circle2.0_13
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 0
+        width: 315
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9892972f92853744dba17945c7e3abee
       vertices: []
       indices: 
       edges: []
@@ -272,8 +380,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 494bcf04cf816734c8213ca9ed474244
->>>>>>> minimap
+    spriteID: 00d99eef9db09fd46b50b0b60a86f7a3
     vertices: []
     indices: 
     edges: []
