@@ -39,13 +39,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e892a6281923b9744838dead2cc57868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CheckPoint: {fileID: 21300000, guid: ff17938b0e562364bbd60803825abb18, type: 3}
-  m_CheckPointDone: {fileID: 21300000, guid: 10eab23ce75ffdc4b8cbc7dbecb9b666, type: 3}
-  player: {fileID: 0}
-  m_edgeBuffer: 57.3
-  checkpointScale: 1
+  checkPoint: {fileID: 21300000, guid: ff17938b0e562364bbd60803825abb18, type: 3}
+  CheckPointDone: {fileID: 21300000, guid: 10eab23ce75ffdc4b8cbc7dbecb9b666, type: 3}
+  edgeBuffer: 90
+  checkpointScale: 0.5
   ShowDebugLines: 1
-  transition: 0.1
+  transition: 0.05
+  font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!222 &222269210638201810
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -61,7 +61,7 @@ RectTransform:
   m_GameObject: {fileID: 1852771247988912}
   m_LocalRotation: {x: 0.0022760148, y: -0.5757168, z: -0.0016025793, w: 0.8176444}
   m_LocalPosition: {x: 0, y: 0, z: 7.5999985}
-  m_LocalScale: {x: 0.50000036, y: 0.5, z: 0.50000036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

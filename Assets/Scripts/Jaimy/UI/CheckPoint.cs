@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+public enum CheckPointState { OPEN, SMALLER, BIGGER, CLOSING }
+
 public class CheckPoint : MonoBehaviour
 {
     private Camera mainCamera;
@@ -93,7 +95,8 @@ public class CheckPoint : MonoBehaviour
             }
         } else
 
-        if (checkPointState == CheckPointState.BIGGER)
+        if (checkPointState == CheckPointState
+            .BIGGER)
         {
             if (icon.transform.localScale.x < 1)
             {
@@ -239,9 +242,4 @@ public class CheckPoint : MonoBehaviour
         returnVector /= max;
         return returnVector;
     }
-}
-
-public enum CheckPointState
-{
-    OPEN, SMALLER, BIGGER, CLOSING
 }
