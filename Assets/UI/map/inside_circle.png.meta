@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 6dbc06140dc5b274ca784e10b8be2887
 =======
 guid: 0a4a8785557ebc74ab24d64671e15f81
@@ -8,6 +9,9 @@ guid: 0a4a8785557ebc74ab24d64671e15f81
 =======
 guid: d5547646f6b20474ea9e6f5c35949eb9
 >>>>>>> minimap
+=======
+guid: da0555d039a1a154b800b0f396855dbc
+>>>>>>> origin/player-shooting
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -15,10 +19,14 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     enableMipMap: 1
 =======
     enableMipMap: 0
 >>>>>>> minimap
+=======
+    enableMipMap: 1
+>>>>>>> origin/player-shooting
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -47,6 +55,9 @@ TextureImporter:
     aniso: -1
     mipBias: -100
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/player-shooting
     wrapU: -1
     wrapV: -1
     wrapW: -1
@@ -54,6 +65,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
+<<<<<<< HEAD
 =======
     wrapU: 1
     wrapV: 1
@@ -63,6 +75,8 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
 >>>>>>> minimap
+=======
+>>>>>>> origin/player-shooting
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,6 +86,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
@@ -80,6 +95,11 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 8
 >>>>>>> minimap
+=======
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+>>>>>>> origin/player-shooting
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -98,6 +118,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - serializedVersion: 2
     buildTarget: Standalone
@@ -111,6 +132,8 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
 >>>>>>> minimap
+=======
+>>>>>>> origin/player-shooting
   spriteSheet:
     serializedVersion: 2
     sprites: []

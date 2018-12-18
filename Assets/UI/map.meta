@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: ba2c005b8d8d649458ed59bc2d103a55
 =======
 guid: 1e93c539d5dda9d4196ca69e3ba80f9c
@@ -8,6 +9,9 @@ guid: 1e93c539d5dda9d4196ca69e3ba80f9c
 =======
 guid: 430a8bd2b9362164faba6088ab3dfda4
 >>>>>>> minimap
+=======
+guid: 8c7b77403a973cd4592ef08e6fd63768
+>>>>>>> origin/player-shooting
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
