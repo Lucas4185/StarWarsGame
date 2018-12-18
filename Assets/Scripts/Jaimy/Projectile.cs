@@ -21,9 +21,14 @@ public class Projectile : MonoBehaviour {
 
     private float journeyLength;
 
+    public Vector3 direction;
+
+    private Rigidbody rigidbody;
+
 
     void Start()
     {
+        rigidbody = GetComponent<Rigidbody>();
         Destroy(gameObject, lifeTimeInSeconds);
 
         startPos = gameObject.transform.position;
@@ -37,7 +42,7 @@ public class Projectile : MonoBehaviour {
 
     void Update()
     {
-        if (Vector3.Distance(startPos, gameObject.transform.position) >= journeyLength)
+        if (Vector3.Distance(startPos, gameObject.transform.position) >= journeyLength && destination != Vector3.zero)
         {
             Hit();
         }
@@ -45,7 +50,13 @@ public class Projectile : MonoBehaviour {
 
     void FixedUpdate () {
 
-        if (destination == null) return;
+        if (destination == Vector3.zero)
+        {
+
+            rigidbody.AddForce(direction * speed, ForceMode.Impulse);
+
+            return;
+        }
 
         float distCovered = (Time.time - startTime) * speed;
 
