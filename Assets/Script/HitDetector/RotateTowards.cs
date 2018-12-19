@@ -77,7 +77,7 @@ public class RotateTowards : MonoBehaviour {
             timer++;
         }
 
-        if (timer == 500)
+        if (timer == 200)
         {
             hitRadar.SetActive(false);
             hit = false;
