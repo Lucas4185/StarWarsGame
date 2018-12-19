@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpaceShipMove : MonoBehaviour {
 
-	const float MAX_SPEED = 11f;
+	const float MAX_SPEED = 13f;
 
 	Rigidbody rigidbody;
 	float speed;
