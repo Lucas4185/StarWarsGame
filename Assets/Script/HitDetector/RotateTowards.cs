@@ -27,12 +27,7 @@ public class RotateTowards : MonoBehaviour {
     private GameObject hitRadar;
 
 
-    private bool hit = false;
-
-
-
-
-
+    private bool hit = true;
 
     private int timer = 0;
 
