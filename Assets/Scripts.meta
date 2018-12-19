@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: b455918fdffc14743993d4f756931e48
+=======
 guid: 2accc1203b3d8884b906fc13037b7500
+>>>>>>> origin/player-shooting
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

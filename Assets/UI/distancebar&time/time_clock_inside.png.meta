@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+guid: c1a91cb79d2d0f94e879d01f00238446
+=======
+guid: 573edd38fd9f4eb4488188638eb308ca
+>>>>>>> ui
+=======
 guid: ef560e8f261332443aecae6315daef94
+>>>>>>> origin/player-shooting
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
