@@ -76,7 +76,7 @@ public class Projectile : MonoBehaviour {
 
     private void OnDestroy()
     {
-        GameObject exp = Instantiate(explosion, gameObject.transform.position, gameObject.transform.rotation);
+        Instantiate(explosion, gameObject.transform.position, gameObject.transform.rotation);
         
 
     }
