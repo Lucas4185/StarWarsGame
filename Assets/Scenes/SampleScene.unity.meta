@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: f624f052d159d24429a14d4f9f5c1e0b
+=======
+guid: ea44247de1b1c114996e3feb3670b9ea
+>>>>>>> feature/artist
 DefaultImporter:
   externalObjects: {}
   userData: 

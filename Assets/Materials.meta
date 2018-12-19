@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: e54a77dba31d6154b8e902d0d5ed2113
+=======
+guid: fddc6a8b9b2e9b34f9e511f2a43398b0
+>>>>>>> feature/artist
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
