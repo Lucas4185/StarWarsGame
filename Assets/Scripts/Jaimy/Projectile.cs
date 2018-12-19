@@ -25,6 +25,9 @@ public class Projectile : MonoBehaviour {
 
     private Rigidbody rigidbody;
 
+    [SerializeField]
+    private GameObject explosion;
+
 
     void Start()
     {
@@ -69,6 +72,13 @@ public class Projectile : MonoBehaviour {
     void Hit()
     {
         Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        GameObject exp = Instantiate(explosion, gameObject.transform.position, gameObject.transform.rotation);
+        
+
     }
 
 }

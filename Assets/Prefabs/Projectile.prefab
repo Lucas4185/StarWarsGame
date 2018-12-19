@@ -112,11 +112,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2609d90f0940cb4fb58d0bb11a98e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTimeInSeconds: 5
+  lifeTimeInSeconds: 0.1
   destination: {x: 0, y: 0, z: 0}
   startPos: {x: 0, y: 0, z: 0}
   ship: {fileID: 0}
   speed: 100
+  direction: {x: 0, y: 0, z: 0}
+  explosion: {fileID: 1849739649471644, guid: c5596a134ec9ec54f8158c166288276b, type: 2}
 --- !u!136 &136112020426232446
 CapsuleCollider:
   m_ObjectHideFlags: 1
