@@ -19,8 +19,8 @@ public class PlayerMove : MonoBehaviour {
 
 	void Update() {
 		Vector3 moveCamTo = transform.position - transform.forward + Vector3.up;
-		float bias = 0.96f;
-		Camera.main.transform.position = Camera.main.transform.position * bias + moveCamTo * (1.0f+bias);
+		float bias = 0.01f;
+		Camera.main.transform.position = moveCamTo;
 		Camera.main.transform.LookAt(transform.position + transform.forward * 30.0f);
 
 		if(Input.GetKey(KeyCode.W)) {
